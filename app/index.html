@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NusaData — Indonesia in numbers: population, economy, health, education and environment, every figure with its source and year.">
+<title>Indonesia in numbers — NusaData</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <a class="brand-name" href="#/"><b>Nusa</b>Data</a>
+    <span class="brand-tag">Statistik Indonesia · National statistics, plainly told</span>
+  </div>
+  <nav class="site-nav" aria-label="Sections">
+    <a href="#/" data-route="/">Overview</a>
+    <a href="#/population" data-route="/population">Population</a>
+    <a href="#/economy" data-route="/economy">Economy</a>
+    <a href="#/people" data-route="/people">People</a>
+    <a href="#/environment" data-route="/environment">Environment</a>
+    <a href="#/sources" data-route="/sources">Sources</a>
+  </nav>
+</header>
+<main id="view"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>NusaData is an independent, original presentation of public statistics about Indonesia.
+    Figures come from Statistics Indonesia (BPS), the World Bank, UN agencies and Indonesian
+    ministries — each figure on this site names its source and year. See the
+    <a href="#/sources">Sources &amp; methods</a> page for the full list.</p>
+    <p>Built as static files: no network request, no tracking, no cookies. Works offline in any modern browser.</p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
